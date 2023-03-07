@@ -53,7 +53,7 @@
         <div class="container main-hero">
           <div class="hero-content">
             <h1 class="main-title">Effective Solutions for Your Business</h1>
-            <button type="button" class="hero-button">Order Service</button>
+            <button data-modal-open type="button" class="hero-button">Order Service</button>
           </div>
         </div>
       </section>
@@ -230,7 +230,7 @@
             </li>
             <li class="item">
               <img src="./images/team3.jpg" alt="Marketing" width="264" />
-              <div class="card-text">
+              <div class="team-text">
                 <div class="team-content">
                   <div class="team-text">
                     <h3 class="sub-title">Camila Garcia</h3>
@@ -416,9 +416,9 @@
 
 
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-      <button class="button-icon" type="button">
+      <button data-modal-close class="button-icon" type="button">
         <svg class="modal-icon">
           <use href="./images/icons.svg#icon-cross"></use>
         </svg>
