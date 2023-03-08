@@ -615,7 +615,8 @@ img {
   cursor: pointer;
   fill: currentColor;
 }
-.button-icon:hover {
+.button-icon:hover,
+.button-icon:focus {
   background-color: var(--accent);
   fill: var(--deafult-white-color);
 }
